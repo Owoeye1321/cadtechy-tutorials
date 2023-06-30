@@ -1,0 +1,32 @@
+.increaseFont {
+  font-size: 40px;
+  color: orange;
+  display: block;
+}
+#addMargin {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+#divTag {
+  border: 1px solid;
+  border-color: red;
+  text-align: left;
+  padding: 20px 25px 30px 50px;
+  background-image: url("../media/spider.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+}
+a {
+  text-decoration: none;
+}
+@media (max-width: 900px) {
+  .increaseFont {
+    font-size: 20px;
+    color: green;
+    display: block;
+  }
+  #divTag {
+    background-color: grey;
+  }
+}
